@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "待办事项管理器",
+  "version": "1.0.0",
+  "description": "一个轻量级的浏览器侧边栏待办事项管理插件",
+  "permissions": [
+    "sidePanel",
+    "storage"
+  ],
+  "side_panel": {
+    "default_path": "src/sidebar.html"
+  },
+  "action": {
+    "default_title": "打开待办事项"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
